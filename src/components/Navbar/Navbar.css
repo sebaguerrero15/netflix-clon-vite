@@ -1,9 +1,9 @@
 .navbar{
     width: 100%;
     padding: 20px 6%;
+    position: absolute;
     display: flex;
     justify-content: space-between;
-    position: fixed;
     font-size: 14px;
     color: #e5e5e5;
     background-image: linear-gradient(180deg, rbga(0,0,0,0.7) 10%, transparent);
