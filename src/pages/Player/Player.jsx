@@ -25,7 +25,7 @@ const navigate = useNavigate();
   };
 
   useEffect(()=> {
-    fetch(`https://api.themoviedb.org/3/movie/${id}/videos?language=es-MX`, options)
+    fetch(`https://api.themoviedb.org/3/movie/${id}/videos?language=en-US`, options)
     .then(response => response.json())
     .then(response => setApiData(response.results[0]))
     .catch(err => console.error(err));

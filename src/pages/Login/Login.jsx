@@ -10,13 +10,14 @@ const Login = () => {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
 
-  const user_auth = async(event) => {
+  const user_auth = async (event) => {
     event.preventDefault();
     if(singState === "Login"){
       await login(email, password)
   }else {
     await singup(name, email, password)
   }
+}
 
   return (
     <div className="login">
@@ -44,6 +45,6 @@ const Login = () => {
     </div>
   )
   }
-}
+
 
 export default Login;
