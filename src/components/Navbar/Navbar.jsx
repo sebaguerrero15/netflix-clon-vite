@@ -30,7 +30,7 @@ const Navbar = () => {
           <img src={profile_img} alt="icono usuario" className="profile" />
           <img src={caret_icon} alt="icono perfil" />
             <div className="dropdown">
-              <p onClick={() => {logout()}}>Sing Out</p>
+              <p onClick={() => {logout()}}>Salir de Netflix</p>
             </div>
           </div>
         </div>
