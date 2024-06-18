@@ -93,3 +93,7 @@
     align-items: center;
     justify-content: center;
 }
+
+.login-spinner img{
+    width: 60px;
+}
